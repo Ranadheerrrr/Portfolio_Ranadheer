@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+}
+
+header {
+    background-color: #000000;
+    background-size: cover;
+
+}
+
+#navstyle {
+    color: black;
+    background-color: white;
+}
+
+.container1 {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.myImage {
+    height: 70vh;
+    width: 200px;
+
+    margin-left: 80px;
+}
+
+
+
+.imagecenter {
+    text-align: center;
+    
+}
+
+.register a {
+    text-decoration: none;
+    color: #48E0E4;
+    padding: 10px 20px;
+    font-size: 26px;
+    background-color: transparent;
+    border-color: #48E0E4;
+    border-style: solid;
+    width: 146px;
+    border-width: 2px;
+    font-family: "Roboto";
+
+}
+
+.branding {
+    height: 80px;
+    width: 70px;
+}
+
+#navItem1 {
+    color: #48E0E4;
+    font-family: 'Basic', sans-serif;
+
+
+
+}
+
+
+#navItem2 {
+    color: #48E0E4;
+    font-family: 'Basic', sans-serif;
+
+
+}
+
+#navItem3 {
+    color: #48E0E4;
+    font-family: 'Basic', sans-serif;
+
+
+}
+
+#navItem4 {
+    color: #48E0E4;
+    font-family: 'Basic', sans-serif;
+
+
+}
+
+#navItem5 {
+    color: #48E0E4;
+    font-family: 'Basic', sans-serif;
+
+
+}
+
+
+.right3 {
+    margin-top: 220px;
+}
+
+.name-head {
+    color: #48E0E4;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.line-tag {
+    color: #EEEEEE;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.span1 {
+    color: #48E0E4;
+    font-weight: 300;
+}
+
+.dis {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.cvbutton {
+    padding: 10px;
+    color: #48E0E4;
+    border-color: #48E0E4;
+    background-color: transparent;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+
+}
+
+section {
+    padding: 20px;
+}
+
+.about-title {
+    color: #00ADB5;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.dis-1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+.about-dis {
+    color: #393E46;
+    font-family: "Roboto";
+    font-family: 40px;
+}
+
+.skills {
+    background-color: #000000;
+}
+
+.skills-sub-heading {
+    color: #00ADB5;
+    font-family: 'Ubuntu', sans-serif;
+
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.skills-card {
+    background-color: #393E46;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skills-card-image {
+
+    width: 64px;
+    height: 64px;
+}
+
+.skills-card-title {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*------services*/
+
+#services {
+    padding: 30px 0;
+    background-color: #000000;
+}
+
+#portfolio {
+    padding: 30px 0;
+    background-color: #000000;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background-color: #393E46;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+
+
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.service-head {
+    color: #00ADB5;
+    font-family: 'Ubuntu', sans-serif;
+
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div:hover {
+    background-color: #00ADB5;
+    transform: translateY(-10px);
+    color: black;
+}
+
+.service-card-image {
+    width: 48px;
+    height: 48px;
+}
+
+#portfolio {
+    padding: 50px 0;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+
+.s1 {
+    color: black;
+}
+
+.s2 {
+    color: black;
+}
+
+.s3 {
+    color: black;
+}
+
+
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), #48E0E4);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.layer a {
+    margin-top: 20px;
+    color: #48E0E4;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.p1 {
+    color: white;
+    font-family: "roboto";
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+.follow-us-section {
+    background-color: black;
+}
+
+.follow-us-section-heading {
+    font-family: "Josefin Sans", Sans-Serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #00ADB5;
+    text-align: center;
+}
+
+.icon {
+    color: #00ADB5;
+    font-size: 35px;
+}
+
+.follow-us-icon-container {
+    width: 80px;
+    height: 80px;
+    background-color: #393E46;
+    padding-top: 22px;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 15px;
+    border-radius: 45px;
+}
+
+
+
+.footer-section-mail-id {
+    color: #00ADB5;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section {
+    background-color: black;
+}
+
+.footer-section-address {
+    color: #00ADB5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+#contact {
+    background-color: black;
+}
+
+.contact-left {
+    flex-basis: 40%;
+}
+
+.contact-left1 {
+    flex-basis: 100%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.sub-button {
+    color: black;
+    background-color: #00ADB5;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 136px;
+    height: 36px;
+    font-family: "roboto";
+
+
+
+}
+
+.contact-right form {
+    width: 100%;
+
+
+}
+
+.n {
+    margin-top: 200px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #393E46;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright i {
+    color: #00ADB5;
+}
+
+.coffe-logo{
+    height: 80px;
+    width: 80px;
+}
+ 
